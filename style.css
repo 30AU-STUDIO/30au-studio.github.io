@@ -23,6 +23,13 @@ h2 {
   font-weight: bold;
 }
 
+h2label {
+  font-family: "IBM_CGA";
+  font-size: 16px;
+  font-weight: normal;
+  color: grey;
+}
+
 h2blue {
   font-family: "IBM_CGA";
   font-size: 32px;
@@ -81,6 +88,13 @@ table, td, tr {
   border-style: solid;
   border-width: 4px;
   border-color: #111111;
+}
+
+.labelDiv {
+  margin: 0px;
+  text-align: left;
+  width: 720px;
+  padding: 0px;
 }
 
 .aDiv {
