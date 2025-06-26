@@ -291,6 +291,7 @@
       canvas.addEventListener('touchmove', (e) => {
         if (state.thrusting )
         {
+          e.preventDefault();
           const rect = canvas.getBoundingClientRect();
           state.target.x = e.clientX - rect.left;
           state.target.y = e.clientY - rect.top;
